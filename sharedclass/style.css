@@ -1,0 +1,36 @@
+*/this is resetting the CSS*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{background-color: #b31111;}
+
+.container {
+    width: 100;
+
+}
+
+.sectionOne{
+    width: 100%;
+    max-width: 1280px;
+    height: 100px;
+    margin: 0 0 0 0;
+    padding: 0; 
+    background-color: #ededed;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.col-1 {
+ grid-column: span 1;
+ background-color: #ededed;
+}
+
